@@ -1,6 +1,8 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+# Ignore files not intended to be exported in zip archives (for Godot projects).
 *.md export-ignore
+LICENSE export-ignore
 project.godot export-ignore
 docs export-ignore
 demo export-ignore
